@@ -2,6 +2,12 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
+from huggingface_hub import hf_hub_download
+ 
+# ---------- Hugging Face model location (CHANGE THESE 2 LINES) ----------
+HF_REPO_ID = "ZainAliKhanZAK/Face-Mask-Detector"   # e.g. "zainali/face-mask-detection"
+HF_FILENAME = "mask_model.keras"              # exact file name on Hugging Face
+ 
 
 # ---------- Page setup ----------
 st.set_page_config(
