@@ -2,6 +2,14 @@
 
 A deep learning web app that checks whether a person in an image is wearing a face mask. Upload a photo or take a picture with your webcam or phone camera, and the model returns **Masked** or **No Mask** with a confidence score.
 
+**🔗 Live Demo:** [seemask.streamlit.app](https://seeface.streamlit.app/)
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 ## Features
 
 - Upload an image (JPG, JPEG, PNG)
