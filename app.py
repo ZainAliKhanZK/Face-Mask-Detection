@@ -64,7 +64,8 @@ st.markdown(
 # ---------- Model ----------
 @st.cache_resource
 def get_model():
-    return load_model("mask_model.keras")
+    model_path = hf_hub_download(repo_id=HF_REPO_ID, filename=HF_FILENAME)
+    return load_model(model_path)
 
 
 model = get_model()
